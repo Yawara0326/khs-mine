@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+
+    .logo{
+        display:inline-block;
+        background-image: url(http://localhost:3002/images/LOGO1.svg);
+        width: 298px;
+        height: 75px;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-indent: -999px;
+    }
+    .nav_left {
+        >li{
+            display: inline-block;
+        }
+        li a{
+            text-decoration: none;
+        }
+        .nav_menu{
+            display: none;
+        }
+    }
+
+}
+
+
