@@ -152,10 +152,13 @@
     </div>
 
     <section class="contact">
-        <div class="footer_container">
+        <div class="contact_container">
             <p>聯絡功學社</p>
-            <p>歡迎來到功學社，若您有任何建議與諮詢，歡迎利用下方表單，我們將由專人儘快為您服務，謝謝。</p>
-             <div class="item">
+            <div class="contact_intro">
+                <p>歡迎來到功學社，若您有任何建議與諮詢，歡迎利用下方表單，我們將由專人儘快為您服務，謝謝。</p>
+                <p>*為必填項目</p>
+            </div>
+            <div class="item">
                 <div class="personal_imfo">
                     <input type="text" placeholder="姓名">
                     <input type="text" placeholder="地址">
@@ -163,16 +166,20 @@
                     <input type="text" placeholder="Email">
                 </div>
                 <div class="question">
-                    <select name="" id="">
-                        <option>我要詢問</option>
-                        <option>問題一</option>
-                        <option>問題二</option>
-                        <option>問題三</option>
-                    </select>
-                    <input type="text" placeholder="主旨">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="question-item">
+                        <select name="" id="">
+                            <option>我要詢問</option>
+                            <option>問題一</option>
+                            <option>問題二</option>
+                            <option>問題三</option>
+                        </select>
+                        <input type="text" placeholder="主旨">
+                    </div>    
+                    <textarea name="" id="" cols="30" rows="8" placeholder="問題描述"></textarea>
                 </div>
             </div>
+            <input type="checkbox"><p class="agreement">“本人同意所提供給功學社的資訊，將受到功學社集團與網站 網站使用説明所規範，本人已閱讀並了解上述條款。”</p>
+            <button>確認送出</button>
         </div>    
     </section>
 
