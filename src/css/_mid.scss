@@ -433,5 +433,23 @@
             padding-right: 20px;
             gap: 20px;
         }
+        .mid3{
+            .container{
+                padding:20px;
+                .container_item{
+                    flex-direction: column;
+                    height: 600px;
+                    a{
+                        height: 60%;
+                        img{
+                            border-radius: 15px 15px 0 0 !important;
+                        }
+                    }
+                    .intro_warp{
+                        height: 30%;
+                    }
+                }
+            }
+        }
 }
 
