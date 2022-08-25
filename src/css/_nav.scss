@@ -62,10 +62,11 @@
             line-height: 20px;
             position: absolute;
             top: 30px;
-            width: 180px;
+            width: 200px;
             padding: 7px;
             margin-left: -3px;
             .nav_menu_area{
+                margin: 0 5px;
                 h4{
                     margin: 8px 0;
                     font-weight: 600;
@@ -75,10 +76,14 @@
                 }
             }
             ol{
+                width: 100%;
                 li{
                     margin: 8px 0;
+                    width: 100%;
                     a{
                         color: black;
+                        display: block;
+                        width: 100%;
                     }
                 }
             }
